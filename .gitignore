@@ -20,6 +20,10 @@ dist-ssr
 .env.*
 !.env.example
 
+# Tauri / Rust build artifacts
+src-tauri/target/
+src-tauri/gen/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -31,10 +35,22 @@ dist-ssr
 *.sln
 *.sw?
 
+# Vite
+.vite/
+
+# Test coverage
+coverage/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
 .claude
 docs
 reference
 CLAUDE.md
 AGENTS.md
 .loop-log
+.review
 
